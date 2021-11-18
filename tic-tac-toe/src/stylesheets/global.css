@@ -1,0 +1,97 @@
+/* Global Styles */
+
+/* General */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1.125rem;
+  font-family: "Nunito", sans-serif;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/* Container */
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Anchor Decoration */
+a {
+  text-decoration: none;
+}
+
+/* Image Adjust */
+.full-width {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* Positions */
+.position-absolute{
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-fixed{
+    position: fixed;
+}
+
+.position-sticky{
+    position: sticky;
+}
+
+.z-index-100{
+    z-index: 100;
+}
+
+.z-index-50{
+    z-index: 50;
+}
+
+.z-index-10{
+    z-index: 10;
+}
+
+.z-index-1{
+    z-index: 1;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.25rem .5rem;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+  margin-right: .5rem;
+}
+
+
+
+.btn-primary {
+  color: #2d6898;
+  border: 1px solid #2d6898;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #2d6898;
+  color: white;
+  border: 1px solid #2d6898;
+}
+
